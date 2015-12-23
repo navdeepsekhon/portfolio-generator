@@ -18,11 +18,22 @@
   },
   "work": [
     {
-      "company": "JPMorgan Chase",
+      "employer": "JPMorgan Chase",
       "position": "Application Developer",
       "website": "",
       "startDate": "July 2014",
       "endDate": "Present",
+      "summary": "Description...",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "employer": "SevOne Inc.",
+      "position": "Software Developer Intern",
+      "website": "",
+      "startDate": "June 2013",
+      "endDate": "February 2015",
       "summary": "Description...",
       "highlights": [
         "Started the company"
