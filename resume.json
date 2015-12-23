@@ -4,16 +4,10 @@
     "title": "Software Developer",
     "image": "",
     "email": "sekhon@navdeep.co",
-    "phone": "",
+    "phone": "123-456-7890",
     "website": "",
     "summary": "A summary of John Doe...",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "location": "Delaware",
     "profiles": [
       {
         "network": "Twitter",
