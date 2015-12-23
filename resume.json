@@ -43,6 +43,16 @@
           "title": "Weather App",
           "image": "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/tablet_mainscreen.png",
           "link": "https://github.com/navdeepsekhon/AndroidWeatherApp/"
+      },
+      {
+          "title": "PopMovies App",
+          "image": "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_movie_details_landscape.PNG",
+          "link": "https://github.com/navdeepsekhon/PopMovies"
+      },
+      {
+          "title": "Top Ten Songs App",
+          "image": "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/phone_artist_top_songs.png",
+          "link": "https://github.com/navdeepsekhon/TopTenSongsAndroidApp"
       }
   ],
   "awards": [
