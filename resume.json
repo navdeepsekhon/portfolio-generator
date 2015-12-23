@@ -41,7 +41,10 @@
       "dates": "June 2013 - February 2014",
       "summary": "Description...",
       "highlights": [
-        "Started the company"
+        "Implemented new APIs", 
+        "Integrated and tested existing C++ libraries with the google testing framework", 
+        "Implemented and improved functionality in the backend as well as the frontend of the system", 
+        "Technology: C++, SQL, PHP, ExtJS, Unix"
       ]
     }
   ],
