@@ -19,6 +19,7 @@
   "work": [
     {
       "employer": "JPMorgan Chase",
+      "location": "Newark, DE",
       "position": "Application Developer",
       "website": "",
       "startDate": "July 2014",
@@ -30,6 +31,7 @@
     },
     {
       "employer": "SevOne Inc.",
+      "location": "Newark, DE",
       "position": "Software Developer Intern",
       "website": "",
       "startDate": "June 2013",
