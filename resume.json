@@ -11,8 +11,13 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "john",
-        "url": "http://twitter.com/john"
+        "username": "navdeepsekhon9",
+        "url": "http://twitter.com/navdeepsekhon9"
+      },
+      {
+        "network": "github",
+        "username": "navdeepsekhon",
+        "url": "http://decompile.xyz"
       }
     ]
   },
