@@ -1,0 +1,79 @@
+{
+  "personal": {
+    "name": "Navdeep Sekhon",
+    "title": "Software Developer",
+    "image": "",
+    "email": "sekhon@navdeep.co",
+    "phone": "",
+    "website": "",
+    "summary": "A summary of John Doe...",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "john",
+        "url": "http://twitter.com/john"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "JPMorgan Chase",
+      "position": "Application Developer",
+      "website": "",
+      "startDate": "July 2014",
+      "endDate": "Present",
+      "summary": "Description...",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Of Delaware",
+      "area": "Computer Engineering",
+      "degree": "Bachelor",
+      "graduationDate": "Fall 2010",
+      "gpa": "3.7/4.0"
+    }
+  ],
+  "projects": [
+      {
+          "title": "Weather App",
+          "image": "https://github.com/navdeepsekhon/AndroidWeatherApp/blob/master/screenshots/tablet_mainscreen.png"
+      }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ]
+  
+}
