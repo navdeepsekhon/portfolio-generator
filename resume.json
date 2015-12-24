@@ -61,7 +61,7 @@
           "title": "Weather App",
           "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/tablet_mainscreen.png",
           "link": "https://github.com/navdeepsekhon/AndroidWeatherApp/",
-          "description": "Android weather app using open weather API. Refreshes data every 3 hours in SQLite database."
+          "description": "Android weather app using open weather API. Refreshes data every 3 hours in SQLite database.",
           "gallery":["https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_detailscreen_portrait.png",
           "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_mainscreen.png",
           "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/user_settings_screen.png"]
