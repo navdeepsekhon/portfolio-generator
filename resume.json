@@ -78,8 +78,9 @@
       },
       {
           "title": "Court Counter",
-          "image": "https://raw.githubusercontent.com/navdeepsekhon/CourtCounter/master/screenshots/Screenshot_2015-06-07-14-12-32.png",
-          "link": "https://github.com/navdeepsekhon/CourtCounter"
+          "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/CourtCounter/master/screenshots/Screenshot_2015-06-07-14-12-32.png",
+          "link": "https://github.com/navdeepsekhon/CourtCounter",
+          "description": "Android app to keep track of a basket ball game score!"
       }
   ],
   "awards": [
