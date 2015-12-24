@@ -59,17 +59,20 @@
   "projects": [
       {
           "title": "Weather App",
-          "image": "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/tablet_mainscreen.png",
-          "link": "https://github.com/navdeepsekhon/AndroidWeatherApp/"
+          "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/tablet_mainscreen.png",
+          "link": "https://github.com/navdeepsekhon/AndroidWeatherApp/",
+          "gallery":["https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_detailscreen_portrait.png",
+          "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_mainscreen.png",
+          "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/user_settings_screen.png"]
       },
       {
           "title": "PopMovies App",
-          "image": "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_movie_details_landscape.PNG",
+          "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_movie_details_landscape.PNG",
           "link": "https://github.com/navdeepsekhon/PopMovies"
       },
       {
           "title": "Top Ten Songs App",
-          "image": "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_player.PNG",
+          "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_player.PNG",
           "link": "https://github.com/navdeepsekhon/TopTenSongsAndroidApp"
       },
       {
