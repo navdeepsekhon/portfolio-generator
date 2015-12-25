@@ -1,5 +1,5 @@
 {
-  "displayOrder": ["projects", "work", "education", "awards", "social"],
+  "displayOrder": ["projects", "work", "education", "awards", "volunteer", "social"],
   "personal": {
     "name": "Navdeep Sekhon",
     "title": "Software Developer",
@@ -65,6 +65,29 @@
       ]
     }
   ],
+  "volunteer":[
+    {
+      "organizaion": "Volunteer Org #1",
+      "location": "Newark, DE",
+      "title": "Volunteer title #1`",
+      "website": "https://www.udel.edu/",
+      "dates": "December 2015",
+      "highlights": [
+        "highlight",
+        "highlight"
+      ]
+    },
+    {
+      "organizaion": "Volunteer Org #2",
+      "location": "Newark, DE",
+      "title": "Volunteer title #`2",
+      "website": "https://www.udel.edu/",
+      "dates": "November 2015",
+      "highlights": [
+        
+      ]
+    }
+    ],
   "education": [
     {
       "institution": "University Of Delaware",
