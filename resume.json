@@ -133,12 +133,12 @@
     },
     {
       "title": "FrontEnd",
-      "projects" :[
+      "projects" :[{
         "title": "Porfolio Generator",
         "thumbnail": "http://placehold.it/500x500",
         "link": "#",
         "description": "<ul class=\"bullet-list\"><li>Javascript framework that automatically generates a portfolio website from resume data</li><li>Ability to create thumbnails for projects</li><li>Ability to choose the order of different sections or skip sections entirely</li><li>Ability to have custom named sections for projects</li>"
-        ]
+        }]
     }
   ],
   "awards": [
