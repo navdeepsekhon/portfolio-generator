@@ -1,4 +1,5 @@
 {
+  "displayOrder": ["projects", "work", "education", "awards"],
   "personal": {
     "name": "Navdeep Sekhon",
     "title": "Software Developer",
@@ -34,8 +35,7 @@
       "title": "Application Developer",
       "website": "https://www.jpmorganchase.com/",
       "dates": "July 2014 - Present",
-      "highlights": [
-      ]
+      "highlights": []
     },
     {
       "employer": "SevOne Inc.",
@@ -44,9 +44,9 @@
       "website": "https://www.sevone.com/",
       "dates": "June 2013 - February 2014",
       "highlights": [
-        "Implemented new APIs", 
-        "Integrated and tested existing C++ libraries with the google testing framework", 
-        "Implemented and improved functionality in the backend as well as the frontend of the system", 
+        "Implemented new APIs",
+        "Integrated and tested existing C++ libraries with the google testing framework",
+        "Implemented and improved functionality in the backend as well as the frontend of the system",
         "Technology: C++, SQL, PHP, ExtJS, Unix"
       ]
     },
@@ -57,9 +57,9 @@
       "website": "https://www.udel.edu/",
       "dates": "June 2012 – August 2012",
       "highlights": [
-        "Worked on Model and Simulation of DRAM-PCM Dual Architecture with Dr. Chengmo Yang", 
-        "Developed simulators for various parts of the architecture", 
-        "Integrated different algorithms", 
+        "Worked on Model and Simulation of DRAM-PCM Dual Architecture with Dr. Chengmo Yang",
+        "Developed simulators for various parts of the architecture",
+        "Integrated different algorithms",
         "Tested the algorithms and analyzed the results",
         "Presented research findings at research seminar"
       ]
@@ -74,54 +74,63 @@
       "gpa": "3.7/4.0"
     }
   ],
-  "projects": [
-      {
+  "projectSections": [
+    {
+      "title": "Android",
+      "projects": [
+        {
           "title": "Weather App",
           "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/tablet_mainscreen.png",
           "link": "https://github.com/navdeepsekhon/AndroidWeatherApp/",
           "description": "Android weather app using open weather API. Optimized for phone and tablet UI. Refreshes data every 3 hours in SQLite database.",
-          "gallery":["https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_detailscreen_portrait.png",
-          "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_mainscreen.png",
-          "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/user_settings_screen.png",
-          "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/tablet_mainscreen.png"]
-      },
-      {
+          "gallery": [
+            "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_detailscreen_portrait.png",
+            "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_mainscreen.png",
+            "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/user_settings_screen.png",
+            "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/tablet_mainscreen.png"
+          ]
+        },
+        {
           "title": "PopMovies App",
           "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_movie_details_landscape.PNG",
           "link": "https://github.com/navdeepsekhon/PopMovies",
           "description": "Android app for discovering movies. Uses themoviedb.org API. Optimized for phone and tablet UI.",
-          "gallery":[ "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_movies_portrait.png",
-          "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_movie_detail.png",
-          "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_sort_options.png",
-          "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_movies_landscape.png",
-          "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_initialview_landscape.PNG",
-          "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_movie_details_landscape.PNG",
-          "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_portrait.PNG"
-          
-            ]
-      },
-      {
+          "gallery": [
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_movies_portrait.png",
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_movie_detail.png",
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_sort_options.png",
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_movies_landscape.png",
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_initialview_landscape.PNG",
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_movie_details_landscape.PNG",
+            "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_portrait.PNG"
+          ]
+        },
+        {
           "title": "Top Ten Songs App",
           "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_player.PNG",
           "link": "https://github.com/navdeepsekhon/TopTenSongsAndroidApp",
           "description": "Android app to play current top ten songs for an artist. Supports instant search for artists. Uses spotify API. Optimized for phone and tablet.",
-          "gallery":[
+          "gallery": [
             "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/phone_initial_view.png",
             "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/phone_instant_search.png",
             "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/phone_artist_top_songs.png",
             "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_instant_search.PNG",
             "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_artist_top_songs.PNG",
-            "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_player.PNG"]
-      },
-      {
+            "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_player.PNG"
+          ]
+        },
+        {
           "title": "Court Counter",
           "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/CourtCounter/master/screenshots/Screenshot_2015-06-07-14-12-32.png",
           "link": "https://github.com/navdeepsekhon/CourtCounter",
           "description": "Android app to keep track of a basket ball game score!",
-          "gallery":[
+          "gallery": [
             "https://raw.githubusercontent.com/navdeepsekhon/CourtCounter/master/screenshots/Screenshot_2015-06-07-14-12-32.png",
-            "https://raw.githubusercontent.com/navdeepsekhon/CourtCounter/master/screenshots/Screenshot_2015-06-07-14-12-43.png"]
-      }
+            "https://raw.githubusercontent.com/navdeepsekhon/CourtCounter/master/screenshots/Screenshot_2015-06-07-14-12-43.png"
+          ]
+        }
+      ]
+    }
   ],
   "awards": [
     {
@@ -131,5 +140,4 @@
       "description": "Awarded to the team with the best senior design project within the ECE department. Project: INERTIA: Dead reckoning tracking system for application in GPS degraded environments."
     }
   ]
-  
 }
