@@ -91,10 +91,10 @@
   ],
   "awards": [
     {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "title": "University of Delaware ECE Research Day Outstanding Project Award for Capstone Senior Design Team",
+      "date": "March 2014",
+      "awarder": "University of Delaware Electrical and Computer Engineering Department",
+      "summary": "Awarded to the team with the best senior design project within the ECE department. Project: INERTIA: Dead reckoning tracking system for application in GPS degraded environments."
     }
   ],
   "skills": [
