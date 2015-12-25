@@ -67,7 +67,7 @@
   ],
   "volunteer":[
     {
-      "organizaion": "Volunteer Org #1",
+      "organization": "Volunteer Org #1",
       "location": "Newark, DE",
       "title": "Volunteer title #1`",
       "website": "https://www.udel.edu/",
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "organizaion": "Volunteer Org #2",
+      "organization": "Volunteer Org #2",
       "location": "Newark, DE",
       "title": "Volunteer title #`2",
       "website": "https://www.udel.edu/",
