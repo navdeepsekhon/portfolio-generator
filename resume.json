@@ -159,7 +159,6 @@
       "projects" :[{
         "title": "Porfolio Generator",
         "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/portfolio-generator/master/screenshot.PNG",
-        "link": "#",
         "description": [
           "Javascript framework that automatically generates a portfolio website from resume data.",
           "Ability to create image galleries for projects.",
