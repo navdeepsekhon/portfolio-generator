@@ -69,7 +69,7 @@
     {
       "organization": "Volunteer Org #1",
       "location": "Newark, DE",
-      "title": "Volunteer title #1`",
+      "title": "Volunteer title #1",
       "website": "https://www.udel.edu/",
       "dates": "December 2015",
       "highlights": [
@@ -80,7 +80,7 @@
     {
       "organization": "Volunteer Org #2",
       "location": "Newark, DE",
-      "title": "Volunteer title #`2",
+      "title": "Volunteer title #2",
       "website": "https://www.udel.edu/",
       "dates": "November 2015",
       "highlights": [
