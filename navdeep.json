@@ -85,7 +85,7 @@
             "title": "FrontEnd",
             "projects": [
                 {
-                    "title": "Porfolio Generator",
+                    "title": "Porfolio JS Framework",
                     "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/portfolio-generator/master/screenshot.PNG",
                     "description": [
                         "Javascript framework that automatically generates a responsive portfolio website from resume data.",
