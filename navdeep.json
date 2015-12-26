@@ -88,7 +88,8 @@
                     "title": "Porfolio Generator",
                     "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/portfolio-generator/master/screenshot.PNG",
                     "description": [
-                        "Javascript framework that automatically generates a portfolio website from resume data.",
+                        "Javascript framework that automatically generates a responsive portfolio website from resume data.",
+                        "Adapts to different screen sizes from phone to desktop.",
                         "Ability to create image galleries for projects.",
                         "Ability to choose the order of different sections or skip sections entirely.",
                         "Ability to have custom named sections for projects.",
