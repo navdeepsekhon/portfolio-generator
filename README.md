@@ -38,8 +38,9 @@ JS framework to dynamically generate a portfolio site from a JSON resume
 #####Updating the portfolio with your data:
 Look for the resume.json file in your portfolio-generator project(It should be here: https://github.com/YOURUSERNAME/portfolio-generator/blob/master/resume.json), edit it with your data. You should see your website updated with new data.
 
-If nothing shows up on the site after your changes, copy/paste the json file at www.jsonlint.com and make sure you fix any errors listed.
-
-You might find http://www.jsoneditoronline.org/ useful when editing your json. Paste the sample json on the left, click the arrow poiting right, now you can make changes on the right. When done click the arrow pointing left.
+#####Helpful links:
+* [Understanding JSON format](http://code.tutsplus.com/tutorials/understanding-json--active-8817)
+* If nothing shows up on the site after your changes, copy/paste the json file at www.jsonlint.com and make sure you fix any errors listed.
+* You might find http://www.jsoneditoronline.org/ useful when editing your json. Paste the sample json on the left, click the arrow poiting right, now you can make changes on the right. When done click the arrow pointing left.
 
 If you have any questions, please reachout here or @navdeepsekhon9
