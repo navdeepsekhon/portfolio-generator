@@ -88,6 +88,7 @@
                 {
                     "title": "Porfolio JS Framework",
                     "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/portfolio-generator/master/screenshot.PNG",
+                    "link": "https://github.com/navdeepsekhon/portfolio-generator",
                     "description": [
                         "Javascript framework that automatically generates a responsive portfolio website from resume data.",
                         "Adapts to different screen sizes from phone to desktop.",
