@@ -36,7 +36,7 @@ JS framework to dynamically generate a portfolio site from a JSON resume
 13. Go to http://yourGitHubUsername.github.io. If you did everything right, you sould see a sample portfolio.
 
 #####Updating the portfolio with your data:
-Look for the resume.json file in your portfolio-generator project, edit it with your data. You should see your website updated with new data.
+Look for the resume.json file in your portfolio-generator project(It should be here: https://github.com/YOURUSERNAME/portfolio-generator/blob/master/resume.json), edit it with your data. You should see your website updated with new data.
 
 If nothing shows up on the site after your changes, copy/paste the json file at www.jsonlint.com and make sure you fix any errors listed.
 
