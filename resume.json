@@ -101,7 +101,7 @@
     ],
   "education": [
       {
-      "institution": "No GPA",
+      "institution": "University Of noGPA",
       "major": "Computer Engineering",
       "degree": "Masters",
       "graduationDate": "Fall 2020"
@@ -197,7 +197,7 @@
   ],
   "awards": [
     {
-      "title": "Award with descriptino",
+      "title": "Award with description",
       "date": "March 2014",
       "awarder": "University of Delaware Electrical and Computer Engineering Department",
       "description": "Awarded to the team with the best senior design project within the ECE department. Project: INERTIA: Dead reckoning tracking system for application in GPS degraded environments."
