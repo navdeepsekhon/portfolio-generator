@@ -1,6 +1,8 @@
 # portfolio-generator
 JS framework to dynamically generate a portfolio site from a JSON resume
 
+[My portfolio](www.navdeepsekhon.com)
+
 #Features:
 * Framework generates a responsive website by reading information from resume.json
 * Adapts to different screen sizes from phones to desktops
