@@ -1,0 +1,176 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+
+.source-sans{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    background-color: white;
+}
+
+p{
+    font-size: 16px;
+}
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 100%;
+  height: 52px;
+  color: white;
+  background-color: #03A9F4;
+  
+   -webkit-box-shadow: 0 8px 6px -6px #999;
+   -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important
+}
+
+.clickable{
+    cursor: pointer;
+}
+
+.modal{
+    -webkit-overflow-scrolling: auto;
+}
+
+.projectModal{
+    margin-top: 55px;
+}
+#main{
+    margin-top:50px;
+}
+.img-gallery{
+    max-height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.highlights{
+    margin-top:10px;
+}
+.text-name{
+    /*font-size: 60px;*/
+    margin: auto;
+}
+
+.text-bold{
+    font-size: 18px;
+}
+.text-muted{
+    color: rgba(148, 148, 148, 0.98);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bullet-list{
+    list-style-type: disc;
+}
+#contacts{
+    margin-top: 20px;
+}
+
+.image-center{
+    margin: auto;
+}
+
+.thumbnail-image{
+    max-height: 225px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+
+}
+
+.awarder-text {
+  /*font-style: italic;*/
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+
+}
+.gpa-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+}
+
+.contact-text{
+    margin-left: 5px;
+}
+
+.social-list{
+    font-size: 3.5em;
+    line-height: 2.5em;
+}
+
+.social {
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+.social ul {
+    list-style-type: none; 
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    display:table;
+    overflow: hidden;
+}
+.social li{
+    float: left;
+    padding: 2px;
+    width: 125px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+.award-detail-text{
+    padding-left: 20px;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}

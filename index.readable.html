@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="username.js"></script>
+    <script type="text/javascript" src="js/constants.js"></script>
+    <script type="text/javascript" src="js/builder.js"></script>
+      
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+
+<body class="source-sans fade-in">
+    <nav class="fixed-nav-bar text-center">
+        <h2 id="name" class="text-thin text-name"></h2>
+        <div id="title" class=""></div>
+    </nav>
+   
+    <div id="main" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul id="contacts" class="list-inline text-center"></ul>
+            </div>
+        </div>
+        <hr/>
+    </div>
+
+    <footer class="text-center">
+        <p><a href="http://navdeepsekhon.com">Designed by Navdeep Sekhon</a></p>
+    </footer>
+    <div class="hidden" id="image-repo"></div>
+
+    <!----------Project gallery modal------------>
+    <div class="modal fade projectModal" id="modal-gallery" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">×</button>
+                    <h3 id="gallery-title" class="modal-title text-center"></h3>
+                </div>
+                <div class="modal-body">
+                    <div id="modal-carousel" class="carousel">
+                        <div class="carousel-inner">
+                        </div>
+                        <a class="carousel-control left" href="#modal-carousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                        <a class="carousel-control right" href="#modal-carousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                    </div>
+                    <p class="text-center" id="modal-project-desc"></p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------->
+
+    <!-- Modal -->
+    <div class="modal fade projectModal" id="modal-desc" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-center" id="modal-title"></h3>
+                </div>
+                <div id="modal-desc-body" class="modal-body text-center">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
