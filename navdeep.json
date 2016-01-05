@@ -14,7 +14,7 @@
         "email": "hey@navdeep.co",
         "phone": "732-860-8502",
         "website": "",
-        "shortBio": "Hello! I am Navdeep Sekhon. I like programming and tea. Usually I take both at the same time. I have a passion for solving problems and learning new things.<p>I have written code for front-end, back-end, mobile apps etcetera etcetera. I never shy away from a challenge and I am always looking for opportunities to push my boundaries and build new and exciting things. Here are some of the things I built in my free time while learning new technologies.</p>Feel free to say hello on <a href='https://www.linkedin.com/in/navdeepsekhon'>LinkedIn</a> or any other network listed below :)",
+        "shortBio": "Hello! I am Navdeep Sekhon. I like programming and tea. Usually I take both at the same time. I have a passion for solving problems and learning new things.<p class='text-center'>I have written code for front-end, back-end, mobile apps etcetera etcetera. I never shy away from a challenge and I am always looking for opportunities to push my boundaries and build new and exciting things. Here are some of the things I built in my free time while learning new technologies.</p><p class='text-center'>Feel free to say hello on <a href='https://www.linkedin.com/in/navdeepsekhon'>LinkedIn</a> or any other network listed below :)</p>",
         "location": "Delaware",
         "profiles": [
             {
