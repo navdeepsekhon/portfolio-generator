@@ -87,7 +87,7 @@
             "projects": [
                 {
                     "title": "Porfolio JS Framework",
-                    "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/portfolio-generator/master/screenshot.PNG",
+                    "thumbnail": "https://res.cloudinary.com/navdeep/image/upload/portfolio-generator/screenshot.PNG",
                     "link": "https://github.com/navdeepsekhon/portfolio-generator",
                     "description": [
                         "Javascript framework that automatically generates a responsive portfolio website from resume data.",
@@ -107,53 +107,53 @@
             "projects": [
                 {
                     "title": "Weather App",
-                    "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/tablet_mainscreen.png",
+                    "thumbnail": "https://res.cloudinary.com/navdeep/image/upload/WeatherApp/tablet_mainscreen.png",
                     "link": "https://github.com/navdeepsekhon/AndroidWeatherApp/",
                     "description": "Android weather app using open weather API. Optimized for phone and tablet UI. Refreshes data every 3 hours in SQLite database.",
                     "gallery": [
-                        "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_detailscreen_portrait.png",
-                        "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/phone_mainscreen.png",
-                        "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/user_settings_screen.png",
-                        "https://raw.githubusercontent.com/navdeepsekhon/AndroidWeatherApp/master/screenshots/tablet_mainscreen.png"
+                        "https://res.cloudinary.com/navdeep/image/upload/WeatherApp/phone_detailscreen_portrait.png",
+                        "https://res.cloudinary.com/navdeep/image/upload/WeatherApp/phone_mainscreen.png",
+                        "https://res.cloudinary.com/navdeep/image/upload/WeatherApp/user_settings_screen.png",
+                        "https://res.cloudinary.com/navdeep/image/upload/WeatherApp/tablet_mainscreen.png"
                     ]
                 },
                 {
                     "title": "PopMovies App",
-                    "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_movie_details_landscape.PNG",
+                    "thumbnail": "https://res.cloudinary.com/navdeep/image/upload/PopMovies/tablet_movie_details_landscape.PNG",
                     "link": "https://github.com/navdeepsekhon/PopMovies",
                     "description": "Android app for discovering movies. Uses themoviedb.org API. Optimized for phone and tablet UI.",
                     "gallery": [
-                        "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_movies_portrait.png",
-                        "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_movie_detail.png",
-                        "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_sort_options.png",
-                        "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/phone_movies_landscape.png",
-                        "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_initialview_landscape.PNG",
-                        "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_movie_details_landscape.PNG",
-                        "https://raw.githubusercontent.com/navdeepsekhon/PopMovies/master/screenshots/tablet_portrait.PNG"
+                        "https://res.cloudinary.com/navdeep/image/upload/PopMovies/phone_movies_portrait.png",
+                        "https://res.cloudinary.com/navdeep/image/upload/PopMovies/phone_movie_detail.png",
+                        "https://res.cloudinary.com/navdeep/image/upload/PopMovies/phone_sort_options.png",
+                        "https://res.cloudinary.com/navdeep/image/upload/PopMovies/phone_movies_landscape.png",
+                        "https://res.cloudinary.com/navdeep/image/upload/PopMovies/tablet_initialview_landscape.PNG",
+                        "https://res.cloudinary.com/navdeep/image/upload/PopMovies/tablet_movie_details_landscape.PNG",
+                        "https://res.cloudinary.com/navdeep/image/upload/PopMovies/tablet_portrait.PNG"
                     ]
                 },
                 {
                     "title": "Top Ten Songs App",
-                    "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_player.PNG",
+                    "thumbnail": "https://res.cloudinary.com/navdeep/image/upload/TopTenSongsAndroidApp/tablet_player.PNG",
                     "link": "https://github.com/navdeepsekhon/TopTenSongsAndroidApp",
                     "description": "Android app to play current top ten songs for an artist. Supports instant search for artists. Uses spotify API. Optimized for phone and tablet.",
                     "gallery": [
-                        "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/phone_initial_view.png",
-                        "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/phone_instant_search.png",
-                        "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/phone_artist_top_songs.png",
-                        "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_instant_search.PNG",
-                        "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_artist_top_songs.PNG",
-                        "https://raw.githubusercontent.com/navdeepsekhon/TopTenSongsAndroidApp/master/screenshots/tablet_player.PNG"
+                        "https://res.cloudinary.com/navdeep/image/upload/TopTenSongsAndroidApp/phone_initial_view.png",
+                        "https://res.cloudinary.com/navdeep/image/upload/TopTenSongsAndroidApp/phone_instant_search.png",
+                        "https://res.cloudinary.com/navdeep/image/upload/TopTenSongsAndroidApp/phone_artist_top_songs.png",
+                        "https://res.cloudinary.com/navdeep/image/upload/TopTenSongsAndroidApp/tablet_instant_search.PNG",
+                        "https://res.cloudinary.com/navdeep/image/upload/TopTenSongsAndroidApp/tablet_artist_top_songs.PNG",
+                        "https://res.cloudinary.com/navdeep/image/upload/TopTenSongsAndroidApp/tablet_player.PNG"
                     ]
                 },
                 {
                     "title": "Court Counter",
-                    "thumbnail": "https://raw.githubusercontent.com/navdeepsekhon/CourtCounter/master/screenshots/Screenshot_2015-06-07-14-12-32.png",
+                    "thumbnail": "https://res.cloudinary.com/navdeep/image/upload/CourtCounter/Screenshot_2015-06-07-14-12-32.png",
                     "link": "https://github.com/navdeepsekhon/CourtCounter",
                     "description": "Android app to keep track of a basketball game score!",
                     "gallery": [
-                        "https://raw.githubusercontent.com/navdeepsekhon/CourtCounter/master/screenshots/Screenshot_2015-06-07-14-12-32.png",
-                        "https://raw.githubusercontent.com/navdeepsekhon/CourtCounter/master/screenshots/Screenshot_2015-06-07-14-12-43.png"
+                        "https://res.cloudinary.com/navdeep/image/upload/CourtCounter/Screenshot_2015-06-07-14-12-32.png",
+                        "https://res.cloudinary.com/navdeep/image/upload/CourtCounter/Screenshot_2015-06-07-14-12-43.png"
                     ]
                 }
             ]
