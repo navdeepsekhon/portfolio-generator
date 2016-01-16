@@ -13,7 +13,11 @@ JS framework to dynamically generate a portfolio site from a JSON resume
 
 ####Technical:
 * The code for generating the page is in builder.js and constants.js.
-* It reads the json file using an ajax call to the address listed in constants.js
+* It reads the json file using an ajax call to the address listed at the top in constants.js
+* index.html contains all the HTML, CSS and JS in minified format. It will read the resume listed at var <code>RESUME_LOCATION="https://raw.githubusercontent.com/" + GITHUB_USERNAME +"/portfolio-generator/master/resume.json";</code>
+* <code>The GITHUB_USERNAME is picked up from the username.js</code>
+* To host your site qucikly you can put the index.html and username.js on your site, fork this repo and replace content in resume.json
+* See below for how to control different views.
 
 ####Display Order:
 * The order of different sections is controlled by "displayOrder" in JSON.
