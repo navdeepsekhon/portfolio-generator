@@ -15,35 +15,25 @@ JS framework to dynamically generate a portfolio site from a JSON resume
 * The code for generating the page is in builder.js and constants.js.
 * It reads the json file using an ajax call to the address listed in constants.js
 
+####Display Order:
+* The order of different sections is controlled by "displayOrder" in JSON.
+* If you don't want a section to appear on the site, just remove it from the displayOrder
+* Anything that's empty in the "personal" section won't be shown on the site.
 
-####Step by Step how to create and host a portfolio website with github:
+####Project Sections:
+* Project sections are defined in the "projectSections" as an array.
+* "title" wil be the title of the project section.
+* Project sections appear in same order as they are listed.
 
-#####Prerequisites:
-* Create a github account
-* Download [github desktop app](https://desktop.github.com/) and login to the app
+####Projects:
+* Images for the pop up gallery are listed in the "gallery" array. They appear in the order they are listed in.
+* For bulleted project description, make the "description" attribute a json array and leave out the "gallery"
+* For a paragrap style description, make the "desctiption" a simple string.
+* If you don't want th "Link to Project" to show up, just leave out the "link" attribute.
 
-#####Steps:
-1. Fork this repository. (Fork button at the top)
-2. Go to your github homepage, you should see portfolio-generator listed under your repositories.
-3. Open the desktop app, in the top left corner click the "+" button.
-4. Select the "Clone" tab, then select portfolio-generator. It should show up in the list on the left after cloning.
-5. Again click the "+" sign and select "Create".
-6. For the name enter yourGitHubUserName.github.io and create. It should also get listed on the left with portfolio-generator now.
-7. Now right click on each one and click "Show in explorer".
-8. From the portfolio-generator folder, copy index.html and username.js into the other one.
-9. Edit the new username.js and replace navdeepsekhon with your github username.
-10. Back in the github app, select the github.io project, select the "Changes" tab on the right.
-11. Write some message in the "Summary" box and click commit.
-12. Click "Sync" in the top right corner.
-13. Go to http://yourGitHubUsername.github.io. If you did everything right, you sould see a sample portfolio.
-
-#####Updating the portfolio with your data:
-* Look for the resume.json file in your portfolio-generator project(It should be here: https://github.com/YOURUSERNAME/portfolio-generator/blob/master/resume.json), edit it with your data. You should see your website updated with new data.
-* You can change the order of different sections on the screen by changing the "displayOrder" list. Any section that's not listed in here will not appear on the screen.
-
-#####Helpful links:
-* [Understanding JSON format](http://code.tutsplus.com/tutorials/understanding-json--active-8817)
-* If nothing shows up on the site after your changes, copy/paste the json file at www.jsonlint.com and make sure you fix any errors listed.
-* You might find http://www.jsoneditoronline.org/ useful when editing your json. Paste the sample json on the left, click the arrow poiting right, now you can make changes on the right. When done click the arrow pointing left.
+####Work Experience/ Volunteer:
+* If a "link" is included for the org, the organization name will an <a> tag with the link, otherwise simple text.
+* Highlights can be included in the "highlights" as an array. Highlights are optional as well.
+* The "dates" are treated as a string value, so they can be any format.
 
 If you have any questions, please reachout here or @navdeepsekhon9
