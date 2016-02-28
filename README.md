@@ -40,4 +40,6 @@ JS framework to dynamically generate a portfolio site from a JSON resume
 * Highlights can be included in the "highlights" as an array. Highlights are optional as well.
 * The "dates" are treated as a string value, so they can be any format.
 
+Pull requests with improvements are welcome.
+
 If you have any questions, please reachout here or @navdeepsekhon9
