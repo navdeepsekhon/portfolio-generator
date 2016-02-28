@@ -84,6 +84,7 @@ function addProjects(projects, domProjects) {
     var projectCount = 0;
     var projectHtml = '';
     for (var i in projects) {
+        var projectUniqueId = i + "-" +new Date().getMilliseconds();
         projectCount++;
         if (projectCount == 1) {
             append(domProjects, HTMLProjectRow);
@@ -91,7 +92,7 @@ function addProjects(projects, domProjects) {
             projectRow = projectRow[projectRow.length - 1];
         }
         if (projects[i].gallery != undefined && projects[i].gallery.length != 0) {
-            addProjectImagesToRepo(projects[i].gallery, i);
+            addProjectImagesToRepo(projects[i].gallery, projectUniqueId);
             projectHtml = HTMLProjectWithGallery;
         } else if (projects[i].description != undefined && projects[i].description != '') {
             projectHtml = HTMLProjectWithModal;
@@ -101,7 +102,7 @@ function addProjects(projects, domProjects) {
 
         projectHtml = projectHtml.replace("%image%", projects[i].thumbnail);
         projectHtml = replaceAll(projectHtml, "%title%", projects[i].title);
-        projectHtml = projectHtml.replace("%id%", i);
+        projectHtml = projectHtml.replace("%id%", projectUniqueId);
         if (projects[i].link != undefined && projects[i].link != '') {
             projectHtml += HTMLProjectLink.replace("%link%", projects[i].link);
         }
@@ -161,8 +162,9 @@ function addAwards(data) {
         append(domAwards, awarderAndDate);
 
         if (awards[i].description != null && awards[i].description != '') {
-            var detailId = "awardDetails" + i;
-            var divId = "detailsDiv" + detailId;
+            var unique = new Date().getMilliseconds()
+            var detailId = "awardDetails" + i + "-" + unique;
+            var divId = "detailsDiv" + detailId+"-" + unique;
             var detailsTitleHTML = HTMLAwardDetailsTitle.replace("%id%", detailId);
             detailsTitleHTML = detailsTitleHTML.replace("%targetId%", divId);
             append(domAwards, detailsTitleHTML);
@@ -197,7 +199,8 @@ function addVolunteer(data) {
         append(domVolunteer, volunteerDateAndLocation);
 
         if (volunteer[i].highlights != undefined && volunteer[i].highlights instanceof Array && volunteer[i].highlights.length != 0) {
-            var highlightId = "volunteerHighlights" + i;
+            var unique = new Date().getMilliseconds();
+            var highlightId = "volunteerHighlights" + i + "-" + unique;
             var divId = "highlightDiv-" + highlightId;
             append(domVolunteer, HTMLWorkHighlightsTitle.replace("%targetId%", highlightId).replace("%id%", divId));
             var highlightDiv = document.getElementById(divId);
@@ -233,7 +236,8 @@ function addWork(data) {
         append(domWork, employmentDateAndLocation);
 
         if (work[i].highlights != null && work[i].highlights.length != 0) {
-            var highlightId = "workHighlights" + i;
+            var unique = new Date().getMilliseconds();
+            var highlightId = "workHighlights" + i + unique;
             var divId = "highlightDiv-" + highlightId;
             append(domWork, HTMLWorkHighlightsTitle.replace("%targetId%", divId).replace("%id%", highlightId));
             var highlightDiv = document.getElementById(highlightId);
