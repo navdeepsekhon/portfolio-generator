@@ -1,13 +1,34 @@
-window.onblur = function () {
-    document.title = titleOnBlur;
-};
-
-window.onfocus = function () {
-    document.title = titleOnActive;
-};
-
 var defaultOrder = ["shortBio", "projects", "work", "education", "awards", "volunteer", "social"];
 var functions = [];
+var hidden, visibilityChange;
+
+if (typeof document.hidden !== "undefined") { // Opera 12.10 and Firefox 18 and later support
+  hidden = "hidden";
+  visibilityChange = "visibilitychange";
+} else if (typeof document.msHidden !== "undefined") {
+  hidden = "msHidden";
+  visibilityChange = "msvisibilitychange";
+} else if (typeof document.webkitHidden !== "undefined") {
+  hidden = "webkitHidden";
+  visibilityChange = "webkitvisibilitychange";
+} else {
+  window.onblur = function () {
+      document.title = titleOnBlur;
+  };
+  window.onfocus = function () {
+      document.title = titleOnActive;
+  };
+}
+
+function handleVisibilityChange() {
+  if (document[hidden]) {
+    document.title = titleOnBlur;
+  } else {
+    document.title = titleOnActive;
+  }
+}
+
+document.addEventListener(visibilityChange, handleVisibilityChange, false);
 
 functions["shortBio"] = addShortBio;
 functions["work"] = addWork;
