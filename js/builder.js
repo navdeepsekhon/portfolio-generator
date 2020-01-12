@@ -65,6 +65,8 @@ function setData(data) {
     $('.tooltip-image').first().tooltip("show");
     addProjectThumbnailListener();
     addCollapseListeners();
+    if(data.hideDesignedBy)
+        hideFooter();
 }
 
 function addShortBio(data) {
@@ -364,4 +366,8 @@ function addCollapseListeners() {
     $('.collapse').on('hidden.bs.collapse', function () {
         $(this).parent().find(".glyphicon").removeClass("glyphicon-triangle-bottom").addClass("glyphicon-triangle-right");
     });
+}
+
+function hideFooter(){
+    document.getElementsByTagName("footer")[0].hidden = true;
 }
