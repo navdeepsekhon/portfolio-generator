@@ -11,7 +11,7 @@ JS framework to dynamically generate a portfolio site from a JSON resume
     - [Projects](#projects)
     - [Work/Volunteer](#workvolunteer)
     - [Education/Awards](#educationawards)
-    - [Remove "Designed By" footer]
+    - [Remove "Designed By" footer](#remove-designed-by-navdeep-sekhon)
 
 
 # Features:
