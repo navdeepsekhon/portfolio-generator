@@ -1,5 +1,6 @@
 {
   "displayOrder": ["shortBio","projects", "work", "education", "awards", "volunteer", "social"],
+  "hideDesignedBy": true,
   "personal": {
     "name": "Navdeep Sekhon",
     "title": "Software Developer",
