@@ -1,5 +1,5 @@
 # portfolio-generator
-JS framework to dynamically generate a portfolio site from a JSON resume
+JS framework to dynamically generate a portfolio site from a JSON resume.
 
 <a href="http://navdeepsekhon.github.io/portfolio-generator" target="_blank">DEMO</a> | <a href="http://www.navdeepsekhon.com" target="_blank">My portfolio</a>
 
