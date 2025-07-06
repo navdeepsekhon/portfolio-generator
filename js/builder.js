@@ -46,8 +46,8 @@ $.getJSON(RESUME_LOCATION, function (data) {
 
 function setData(data) {
     DOMMain = document.getElementById("main");
-    document.title = data.personal.name + ',' + data.personal.title;
-    titleOnActive = data.personal.name + ',' + data.personal.title;
+    document.title = data.personal.name + ', ' + data.personal.title;
+    titleOnActive = data.personal.name + ', ' + data.personal.title;
     document.getElementById("name").innerHTML = data.personal.name;
     document.getElementById("title").innerHTML = data.personal.title;
     addContacts(data.personal);
@@ -65,6 +65,8 @@ function setData(data) {
     $('.tooltip-image').first().tooltip("show");
     addProjectThumbnailListener();
     addCollapseListeners();
+    if(data.hideDesignedBy)
+        hideFooter();
 }
 
 function addShortBio(data) {
@@ -364,4 +366,8 @@ function addCollapseListeners() {
     $('.collapse').on('hidden.bs.collapse', function () {
         $(this).parent().find(".glyphicon").removeClass("glyphicon-triangle-bottom").addClass("glyphicon-triangle-right");
     });
+}
+
+function hideFooter(){
+    document.getElementsByTagName("footer")[0].hidden = true;
 }
