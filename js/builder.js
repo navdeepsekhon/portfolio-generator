@@ -46,8 +46,8 @@ $.getJSON(RESUME_LOCATION, function (data) {
 
 function setData(data) {
     DOMMain = document.getElementById("main");
-    document.title = data.personal.name + ',' + data.personal.title;
-    titleOnActive = data.personal.name + ',' + data.personal.title;
+    document.title = data.personal.name + ', ' + data.personal.title;
+    titleOnActive = data.personal.name + ', ' + data.personal.title;
     document.getElementById("name").innerHTML = data.personal.name;
     document.getElementById("title").innerHTML = data.personal.title;
     addContacts(data.personal);
