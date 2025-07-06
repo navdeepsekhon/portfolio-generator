@@ -1,9 +1,37 @@
-@import url(http://weloveiconfonts.com/api/?family=zocial);
+@font-face {
+  font-family: 'zocial';
+  src: url('fonts/zocial.woff2') format('woff2'),
+       url('fonts/zocial.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
-/* zocial */
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
 }
+
+.zocial-twitter:before {
+  content: "T";
+}
+
+.zocial-github:before {
+  content: "g";
+}
+
+.zocial-linkedin:before {
+  content: "L";
+}
+
+.zocial-facebook:before {
+  content: "f";
+}
+
+.zocial-instagram:before {
+  content: "Ü";
+}
+
+/*add more zocial icons here */
 
 
 .source-sans{
